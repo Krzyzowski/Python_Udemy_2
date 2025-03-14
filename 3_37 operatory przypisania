@@ -1,0 +1,31 @@
+
+const = 10
+a = const
+b = 4
+
+
+a = const
+a += 2
+print("a += 2: ", a)
+
+
+a = const
+a -= 2
+print("a-=2: ", a)
+
+
+a = const
+a *= 2
+print("a*=2: ", a)
+
+
+const = 10
+a = const
+a %= 3
+print("a %= : ",  a)
+
+
+const = 10
+a = const
+a //= 3
+print("a//=3: ", a)
